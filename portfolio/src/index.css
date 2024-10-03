@@ -1,59 +1,11 @@
-/* src/main.css */
-.home-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(135deg, #3a6186 0%, #89253e 100%);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.canvas-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 
-.content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: white;
-  padding-top: 20vh;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-
-p {
-  font-size: 1.2rem;
-  margin: 20px 0;
-}
-
-.hero-buttons {
-  margin-top: 30px;
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 1.2rem;
-  margin: 0 10px;
-}
-
-.primary-btn {
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
-}
-
-.secondary-btn {
-  background-color: #f8f9fa;
-  color: #007bff;
-  border-radius: 5px;
+:root{
+    font-family:"Inter", sans-serif;
+    background:#000000;
 }

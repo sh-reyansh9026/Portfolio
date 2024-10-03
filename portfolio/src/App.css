@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+/* src/App.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  /* Moves the links to the right */
+  gap: 20px;
+  /* Adds space between links */
+  padding: 10px;
+  
+}
+
+.navbar a {
+  
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #007BFF;
+  /* Optional: Change color on hover */
+}
